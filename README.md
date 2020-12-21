@@ -36,6 +36,8 @@ Firstly, you should install `tensorflow, pytorch, mxnet` base on DL frameworks y
 * `pytorch`: >=1.4.0
 * `mxnet-cuxxx`: mxnet on cuda. For example `mxnet-cu101`. You run `nvcc --version` to find cuda version.
 
+You can run `pip install requirements.txt` to install the whole frameworks.
+
 # Run model
 
 To test model on specific framework:
