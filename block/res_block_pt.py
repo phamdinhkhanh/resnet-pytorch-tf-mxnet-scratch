@@ -33,7 +33,7 @@ class ResidualBlockPytorch(nn.Module):
     X = self.conv4(X)
     return X
 
-if __name__ == "__main__":
-    X = torch.rand((4, 1, 28, 28)) # shape=(batch_size, channels, width, height)
-    X = ResidualBlockPytorch(num_channels=1, output_channels=64, strides=2, is_used_conv11=True)(X)
-    print(X.shape)
+# if __name__ == "__main__":
+#     X = torch.rand((4, 1, 28, 28)) # shape=(batch_size, channels, width, height)
+#     X = ResidualBlockPytorch(num_channels=1, output_channels=64, strides=2, is_used_conv11=True)(X)
+#     print(X.shape)
